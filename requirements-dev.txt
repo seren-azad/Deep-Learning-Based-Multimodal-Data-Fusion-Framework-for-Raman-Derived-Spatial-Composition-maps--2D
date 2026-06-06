@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=7.0
+jupyter>=1.0
+ruff>=0.4
+seaborn>=0.12
+umap-learn>=0.5

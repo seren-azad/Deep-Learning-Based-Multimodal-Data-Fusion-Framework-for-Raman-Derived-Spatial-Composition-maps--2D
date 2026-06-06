@@ -1,0 +1,46 @@
+{
+  "base_path": "C:/Users/Mahdieh/NK/ML/phantom",
+  "main_folders": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "sub_folders": [
+    "patches",
+    "patches_Brightness",
+    "patches_flipped",
+    "patches_Noise",
+    "patches_rotated"
+  ],
+  "image_size": [
+    150,
+    150
+  ],
+  "grid_shape": [
+    6,
+    6
+  ],
+  "phase_names": [
+    "B",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "image_extensions": [
+    ".jpg",
+    ".jpeg",
+    ".png"
+  ],
+  "normalize_images": true,
+  "normalize_labels": false,
+  "test_size": 0.2,
+  "random_state": 42
+}

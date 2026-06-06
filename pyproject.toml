@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-phantom-fractions"
+version = "0.1.0"
+description = "CNN models for predicting phase area fractions from phantom patch images."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Seren Azad"}]
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "pillow>=9.0",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.2",
+    "scipy>=1.10",
+    "tensorflow>=2.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "jupyter>=1.0", "ruff>=0.4"]
+eda = ["seaborn>=0.12", "umap-learn>=0.5"]
+
+[project.scripts]
+ml-phantom-preprocess = "ml_phantom.cli:preprocess_main"
+ml-phantom-train = "ml_phantom.cli:train_main"
+ml-phantom-evaluate = "ml_phantom.cli:evaluate_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
