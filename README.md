@@ -1,2 +1,2 @@
-# Deep-Learning-Based-Multimodal-Data-Fusion-Framework-for-Raman-Derived-Spatial-Composition-maps--2D
+# Deep-Learning-Based-Multimodal-Data-Fusion-Framework-for-Raman-Derived-Spatial-Composition-maps-2D
 Multimodal fusion is needed to link volumetric imaging with chemical specificity. We present a supervised 2D framework predicting Raman-derived composition maps from OM images, using synthetic OM–Raman phantoms for benchmarking. Among CR-Net, RAC-Net, and RASE-Net, RASE-Net achieved the best accuracy and data efficiency.
