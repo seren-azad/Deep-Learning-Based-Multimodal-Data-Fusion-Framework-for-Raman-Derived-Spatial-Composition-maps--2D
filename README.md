@@ -1,6 +1,16 @@
-# ML Phantom Fractions
+## Dataset
 
-GitHub-ready Python package for predicting phase area fractions from 2D phantom patch images.
+The dataset used in this project is available on Zenodo:
+
+**Dataset:** [Deep Learning-Based Multimodal Data Fusion Framework for Raman Derived Spatial Composition maps 2D](https://doi.org/10.5281/zenodo.20572145)
+
+Please download and extract the dataset before running the scripts.
+
+
+
+# ML models
+
+Python package for predicting phase area fractions from 2D phantom patch images.
 
 This repository was refactored from a Jupyter notebook workflow. The original notebook is kept in `notebooks/ML_fusion_2D_GIT_original.ipynb`, while the reusable code is organized under `src/ml_phantom/`.
 
